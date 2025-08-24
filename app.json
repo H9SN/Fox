@@ -1,0 +1,13 @@
+{
+  "name": "Encryption Site",
+  "description": "Advanced encryption and stealth system",
+  "keywords": ["encryption", "security", "privacy"],
+  "website": "https://your-site.herokuapp.com",
+  "repository": "https://github.com/yourname/encryption-site",
+  "success_url": "/",
+  "buildpacks": [
+    { "url": "heroku/python" },
+    { "url": "heroku/nodejs" },
+    { "url": "heroku/php" }
+  ]
+}

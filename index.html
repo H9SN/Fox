@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>نظام التشفير والتخفي المتقدم - 96g__</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔒</text></svg>">
+</head>
+<body>
+    <!-- شاشة التحميل -->
+    <div id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">96g__</div>
+            <div class="loading-spinner"></div>
+            <p>جاري تحميل نظام التشفير والتخفي المتقدم</p>
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- الواجهة الرئيسية -->
+    <div id="main-content" style="display: none;">
+        <header>
+            <div class="logo-container">
+                <div class="logo">96g__</div>
+                <h1>نظام التشفير والتخفي المتقدم</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home" class="nav-link">الرئيسية</a></li>
+                    <li><a href="#browse" class="nav-link">التصفح المشفر</a></li>
+                    <li><a href="#encrypt" class="nav-link">أداة التشفير</a></li>
+                    <li><a href="#decrypt" class="nav-link">فك التشفير</a></li>
+                    <li><a href="#ai" class="nav-link">الذكاء الاصطناعي</a></li>
+                    <li><a href="#account" class="nav-link">حساب وهمي</a></li>
+                    <li><a href="#settings" class="nav-link">الإعدادات</a></li>
+                </ul>
+            </nav>
+            <div class="user-menu">
+                <button id="login-btn">تسجيل الدخول</button>
+                <button id="register-btn">إنشاء حساب</button>
+            </div>
+        </header>
+
+        <main>
+            <section id="home" class="hero">
+                <div class="hero-content">
+                    <h2>أقوى نظام للتخفي والتشفير على الإنترنت</h2>
+                    <p>حمي خصوصيتك، وشفر اتصالاتك، وتصفح بحرية مطلقة بدون أي تتبع</p>
+                    <div class="security-level">
+                        <span>مستوى الأمان: </span>
+                        <div class="level-indicator">
+                            <div class="level-bar" style="width: 98%;"></div>
+                        </div>
+                        <span>98%</span>
+                    </div>
+                    <button class="cta-button" id="start-button">ابدأ التصفح الآمن</button>
+                </div>
+                <div class="hero-image">
+                    <div class="encryption-animation">
+                        <div class="lock-icon">🔒</div>
+                        <div class="shield-icon">🛡️</div>
+                        <div class="ghost-icon">👻</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="browse" class="features">
+                <h2>التصفح المشفر المتقدم</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>إخفاء الهوية الحقيقي</h3>
+                        <p>نوفر لك هوية وهمية كاملة مع معلومات جهاز مشفرة وموقع جغرافي عشوائي</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>أسرع من Tor</h3>
+                        <p>تقنيتنا المتطورة توفر تصفحًا أسرع بثلاث مرات من شبكة Tor مع حماية أقوى</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>عدم الكشف عن الهوية</h3>
+                        <p>لا يمكن لأي جهة بما فيها الأمن الوطني تتبع نشاطك على الإنترنت</p>
+                    </div>
+                </div>
+                <div class="browser-container">
+                    <div class="browser-window">
+                        <div class="browser-controls">
+                            <div class="browser-buttons">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                            <div class="address-bar">
+                                <span class="security-icon">🔒</span>
+                                <input type="text" value="https://www.secure-browsing.com" id="url-input">
+                                <button class="go-button">➤</button>
+                            </div>
+                            <div class="browser-menu">☰</div>
+                        </div>
+                        <div class="browser-content">
+                            <div class="tab-bar">
+                                <div class="tab active">تبويب آمن</div>
+                                <div class="tab-add">+</div>
+                            </div>
+                            <div class="viewer">
+                                <div class="fake-info">
+                                    <h4>جلسة التصفح الآمنة نشطة</h4>
+                                    <p>البلد: <span id="fake-country">سويسرا</span></p>
+                                    <p>نظام التشغيل: <span id="fake-os">Windows 11</span></p>
+                                    <p>المتصفح: <span id="fake-browser">Chrome 105</span></p>
+                                    <p>عنوان IP: <span id="fake-ip">192.168.1.1</span></p>
+                                    <p>الموقع: <span id="fake-location">زوريخ, سويسرا</span></p>
+                                    <div class="encryption-status">
+                                        <span class status-dot></span>
+                                        <span>جميع البيانات مشفرة بـ AES-256</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- باقي الأقسام (التشفير، فك التشفير، الذكاء الاصطناعي، الحسابات الوهمية) -->
+            <!-- ... المحتوى السابق مع تحسينات ... -->
+            
+            <section id="settings" class="settings">
+                <h2>الإعدادات المتقدمة</h2>
+                <div class="settings-grid">
+                    <div class="setting-card">
+                        <h3>إعدادات التخفي</h3>
+                        <div class="setting-option">
+                            <label>مستوى التخفي:</label>
+                            <select id="stealth-level">
+                                <option value="low">منخفض (أسرع)</option>
+                                <option value="medium">متوسط</option>
+                                <option value="high">عالي</option>
+                                <option value="extreme" selected>متطرف (الأكثر أمانًا)</option>
+                            </select>
+                        </div>
+                        <div class="setting-option">
+                            <label>منع بصمة المتصفح:</label>
+                            <input type="checkbox" id="fingerprint-protection" checked>
+                        </div>
+                        <div class="setting-option">
+                            <label>منع تعقب الإعلانات:</label>
+                            <input type="checkbox" id="ad-tracker-protection" checked>
+                        </div>
+                    </div>
+                    
+                    <div class="setting-card">
+                        <h3>إعدادات التشفير</h3>
+                        <div class="setting-option">
+                            <label>خوارزمية التشفير الافتراضية:</label>
+                            <select id="default-encryption">
+                                <option value="aes">AES-256</option>
+                                <option value="serpent">Serpent</option>
+                                <option value="twofish">Twofish</option>
+                                <option value="chacha20">ChaCha20</option>
+                            </select>
+                        </div>
+                        <div class="setting-option">
+                            <label>التشفير التلقائي:</label>
+                            <input type="checkbox" id="auto-encrypt" checked>
+                        </div>
+                    </div>
+                    
+                    <div class="setting-card">
+                        <h3>المظهر</h3>
+                        <div class="setting-option">
+                            <label>المظهر:</label>
+                            <select id="theme-select">
+                                <option value="dark">داكن</option>
+                                <option value="light">فاتح</option>
+                                <option value="auto">تلقائي</option>
+                            </select>
+                        </div>
+                        <div class="setting-option">
+                            <label>لون التمييز:</label>
+                            <select id="accent-color">
+                                <option value="green" selected>أخضر</option>
+                                <option value="blue">أزرق</option>
+                                <option value="purple">بنفسجي</option>
+                                <option value="red">أحمر</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <!-- تذييل الصفحة كما في الإصدار السابق -->
+        </footer>
+    </div>
+
+    <!-- نافذة تسجيل الدخول -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>تسجيل الدخول</h2>
+            <form id="login-form">
+                <input type="text" placeholder="اسم المستخدم" required>
+                <input type="password" placeholder="كلمة المرور" required>
+                <button type="submit">تسجيل الدخول</button>
+            </form>
+            <div class="auth-links">
+                <a href="#forgot-password">نسيت كلمة المرور؟</a>
+                <a href="#create-account">إنشاء حساب جديد</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

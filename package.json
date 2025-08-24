@@ -1,0 +1,16 @@
+{
+  "name": "encryption-stealth-system",
+  "version": "1.0.0",
+  "description": "نظام التشفير والتخفي المتقدم",
+  "main": "app.py",
+  "scripts": {
+    "start": "python app.py",
+    "dev": "python app.py & php -S localhost:8000 api.php"
+  },
+  "dependencies": {
+    "flask": "^2.2.2",
+    "flask-cors": "^3.0.10"
+  },
+  "author": "FOX",
+  "license": "MIT"
+}

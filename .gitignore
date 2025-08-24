@@ -1,0 +1,90 @@
+# ملف .gitignore لمشروع نظام التشفير
+
+# تبعيات Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# تبعيات Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# بيئات virtualenv
+.env
+.venv
+env/
+venv/
+
+# ملفات البيئة (تحتوي على معلومات حساسة)
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ملفات نظام التشغيل
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ملفات IDE ومحررات النصوص
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# ملفات Logs
+logs/
+*.log
+
+# ملفات البناء والتوزيع
+build/
+dist/
+*.tar.gz
+*.zip
+
+# قاعدة البيانات (إذا كنت تستخدم SQLite)
+*.sqlite
+*.sqlite3
+*.db
+
+# ملفات مؤقتة
+*.tmp
+*.temp
+
+# ملفات النظام
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ملفات الاختبارات
+coverage/
+.nyc_output/
+
+# ملفات النظام الخاصة بـ Windows
+[Hh]umbs.db
+[Ll]og.*
+[Ss]ystem Volume Information/
+
+# ملفات الخادم المحلي
+*.pid
+*.seed
+*.pid.lock
